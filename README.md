@@ -1,15 +1,12 @@
-Persona theme for NodeBB
+Retrospection theme for NodeBB
 ====================
 
-Persona is the new default theme for NodeBB as of v0.7.1
+Retrospection is a responsive, classic-inspired forum theme for NodeBB (_based on Persona_).
 
-## Addons
-
-[Recent Cards](https://github.com/psychobunny/nodebb-plugin-recent-cards)
+## Features
+* Based on Persona as a stable theme base
+* Responsive, completely compatible with mobile devices
+* Inspired by classic internet forums and BBs, to ease new users into transition
 
 ## Screenshots
-
-![](https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/570/286/570286-db378dfd28256a8fabacc9129b3638dc678ac393.png?1439315393)
-
-<br />
-![](https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/570/287/570287-5875c63ce086d361b76d94e5bc7cc88a5fd34b8b.png?1439315419)
+_None yet, stay patient_
