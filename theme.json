@@ -1,7 +1,7 @@
 {
-    "id": "nodebb-theme-persona",
-    "name": "Persona",
-    "description": "The default theme for NodeBB. Uses a standard approach to forum design.",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona",
+    "id": "nodebb-theme-retrospection",
+    "name": "Retrospection",
+    "description": "Retrospection is a responsive, classic-inspired forum theme for NodeBB.",
+    "url": "https://github.com/ArcticRaz0r/nodebb-theme-retrospection",
     "screenshot": "screenshot.png"
 }
