@@ -16,7 +16,7 @@
 			clear: both;
 
 			img, .user-icon {
-				.user-icon-style(@border-radius: 50%);
+				.user-icon-style(@border-radius: 4px);
 				float: left;
 			}
 
@@ -37,7 +37,7 @@
 			}
 
 			&.unread {
-				.bg-variant(@state-warning-bg);
+				.bg-variant(@brand-warning);
 
 				.mark-read:after {
 					content: "\f111";
@@ -89,7 +89,7 @@
 				}
 
 				img, .user-icon {
-					.user-icon-style(@border-radius: 50%);
+					.user-icon-style(@border-radius: 4px);
 					margin-right: 1em;
 				}
 			}
@@ -124,7 +124,7 @@
 		padding: 10px 15px;
 
 		img, .user-icon {
-			.user-icon-style(30px, 1.8rem, 50%);
+			.user-icon-style(30px, 1.8rem, 4px);
 			border: 0px none;
 
 			span {
@@ -231,6 +231,9 @@
 
 .breadcrumb {
 	li {
+		font-size: 12px;
+		line-height: 1;
+
 		max-width: 100%;
 		.text-ellipsis;
 	}
@@ -241,7 +244,7 @@
 	}
 
 	font-size: 16px;
-	padding: 0;
+	padding: 6px 12px !important;
 	background: none;
 
 	@media (max-width: @screen-sm-max) {

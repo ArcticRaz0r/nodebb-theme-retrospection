@@ -2,13 +2,13 @@
   "name": "nodebb-theme-retrospection",
   "version": "0.0.1",
   "nbbpm": {
-    "compatibility": "^0.8.2 || ^0.9.0"
+    "compatibility": "^0.8.2 || ^0.9.3"
   },
   "description": "Retrospection theme for NodeBB",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-retrospection"
+    "url": "https://github.com/ArcticRaz0r/nodebb-theme-retrospection/"
   },
   "keywords": [
     "nodebb",

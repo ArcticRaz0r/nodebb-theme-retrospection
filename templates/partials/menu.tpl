@@ -35,6 +35,7 @@
 							<li>
 								<a component="header/profilelink" href="{relative_path}/user/{user.userslug}">
 									<i component="user/status" class="fa fa-fw fa-circle status {user.status}"></i> <span component="header/username">{user.username}</span>
+
 								</a>
 							</li>
 							<li role="presentation" class="divider"></li>
@@ -149,7 +150,7 @@
 					</li>
 				</ul>
 
-				<ul class="nav navbar-nav navbar-right pagination-block invisible visible-lg visible-md">
+				<!--<ul class="nav navbar-nav navbar-right pagination-block invisible visible-lg visible-md">
 					<li class="dropdown">
 						<i class="fa fa-angle-double-up pointer fa-fw pagetop"></i>
 						<i class="fa fa-angle-up pointer fa-fw pageup"></i>
@@ -169,7 +170,7 @@
   							<input type="text" class="form-control" id="indexInput" placeholder="[[global:pagination.enter_index]]">
   						</ul>
 					</li>
-				</ul>
+				</ul>-->
 
 				<ul id="main-nav" class="nav navbar-nav">
 					<!-- BEGIN navigation -->

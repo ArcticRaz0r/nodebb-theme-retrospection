@@ -25,7 +25,7 @@
 	<p class="hidden-xs">{name}</p>
 
 	<!-- IF !topics.length -->
-	<div class="alert alert-warning" id="category-no-topics">
+	<div id="category-no-topics">
 		[[category:no_topics]]
 	</div>
 	<!-- ENDIF !topics.length -->

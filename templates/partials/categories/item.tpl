@@ -20,13 +20,13 @@
 	</div>
 
 	<!-- IF !../link -->
-	<div class="col-md-1 hidden-sm hidden-xs stats">
-		<span class="{../unread-class} human-readable-number" title="{../totalTopicCount}">{../totalTopicCount}</span><br />
-		<small>[[global:topics]]</small>
-	</div>
-	<div class="col-md-1 hidden-sm hidden-xs stats">
-		<span class="{../unread-class} human-readable-number" title="{../totalPostCount}">{../totalPostCount}</span><br />
-		<small>[[global:posts]]</small>
+	<div class="col-md-2 hidden-sm hidden-xs stats">
+		<div class="card" style="border-color: {../bgColor}">
+			<small>[[global:topics]]</small>:
+			<span class="{../unread-class} human-readable-number" title="{../totalTopicCount}">{../totalTopicCount}</span><br />
+			<small>[[global:posts]]</small>:
+			<span class="{../unread-class} human-readable-number" title="{../totalPostCount}">{../totalPostCount}</span>
+		</div>
 	</div>
 	<div class="col-md-3 col-sm-3 teaser hidden-xs">
 		<!-- IMPORT partials/categories/lastpost.tpl -->

@@ -1,11 +1,18 @@
 .category {
 
+	#category-no-topics {
+		padding: 10px;
+
+		text-align: center;
+		color: @brand-warning;
+	}
+
 	.topic-list {
 		margin-top: 10px;
 	}
 
-	> ul {
-		> li {
+	> ul, table {
+		> li, tr {
 			list-style: none;
 
 			&:not(.unread) {
@@ -14,7 +21,7 @@
 				}
 
 				h2 a {
-					color: @gray;
+					color: @text-muted;
 				}
 			}
 
@@ -89,7 +96,7 @@
 
 			.card .user-icon {
 				display: inline-block;
-				.user-icon-style(24px, 1.5rem, 50%);
+				.user-icon-style(24px, 1.5rem, 4px);
 			}
 		}
 

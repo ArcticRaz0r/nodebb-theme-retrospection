@@ -2,7 +2,7 @@
 
 <div class="row">
 	<!-- IF allowLocalLogin -->
-	<div class="<!-- IF alternate_logins -->col-md-6<!-- ELSE -->col-md-12<!-- ENDIF alternate_logins -->">
+	<div class="<!-- IF !alternate_logins -->col-md-offset-3<!-- ENDIF !alternate_logins --> col-xs-12 col-md-6">
 		<div class="well well-lg">
 			<div class="alert alert-danger" id="login-error-notify" <!-- IF error -->style="display:block"<!-- ELSE -->style="display: none;"<!-- ENDIF error -->>
 				<button type="button" class="close" data-dismiss="alert">&times;</button>
